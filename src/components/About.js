@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import dp from './dp.jpeg';
+import dp from './dp1.jpeg';
 const About = () => {
   return (
     <section id="about" className="about">
