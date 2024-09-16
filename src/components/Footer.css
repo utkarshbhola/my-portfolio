@@ -1,0 +1,57 @@
+.footer {
+    background-color: #1a1a1a; /* Dark background */
+    color: #fff; /* White text */
+    padding: 40px 0;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .footer p {
+    margin: 10px 0;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between email, location, and icons */
+  }
+  
+  .contact-info p {
+    margin: 0;
+  }
+  
+  .contact-info svg {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .contact-info svg:hover {
+    color: #00bcd4; /* Hover color for icons */
+  }
+  
+  .footer a {
+    color: inherit; /* Use same color for links as the text */
+    text-decoration: none;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .footer {
+      padding: 20px 0;
+      font-size: 1rem;
+    }
+  
+    .contact-info {
+      flex-direction: column;
+      gap: 10px; /* Adjust space for vertical layout */
+    }
+  
+    .contact-info svg {
+      font-size: 1.2rem;
+    }
+  }
+  

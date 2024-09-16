@@ -1,0 +1,51 @@
+.resume {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px 50px;
+    background-color: #1a1a1a; /* Dark background */
+    color: #fff; /* White text */
+    flex-wrap: wrap; /* Ensure items wrap when the container is small */
+    box-sizing: border-box; /* Include padding and border in element's width/height */
+
+    margin: 0 auto; /* Center the section */
+  }
+  
+  .resume h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .experience,
+  .education {
+    width: 100%; /* Set to 100% width for small screens */
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #252525;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    margin-bottom: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .experience,
+    .education {
+      width: 48%; /* Adjust width for larger screens, allowing space for padding */
+      margin-bottom: 0; /* Remove margin-bottom when side by side */
+    }
+  }
+  
+  .experience ul,
+  .education ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .experience li,
+  .education li {
+    font-size: 1.2rem;
+    line-height: 2;
+    margin-bottom: 15px;
+  }
+  
